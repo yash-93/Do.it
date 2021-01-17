@@ -82,7 +82,6 @@ const DashboardContent = () => {
     axios
       .delete(process.env.REACT_APP_BACKEND_URL + `/deleteTask/${id}`)
       .then((res) => {
-        console.log(res.status);
         getTasks();
       });
   };

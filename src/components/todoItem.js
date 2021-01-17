@@ -42,7 +42,7 @@ const TodoItem = ({ title, status, id, removeItem }) => {
         status: !completed,
       })
       .then((res) => {
-        console.log(res);
+        // console.log(res);
       })
       .catch((err) => {
         console.log(err);
