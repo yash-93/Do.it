@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const handleClick = () => {
-  window.open("https://github.com/yash-93", "_blank");
+  window.open("https://github.com/yash-93/Do.it", "_blank");
 };
 
 const Header = () => {
